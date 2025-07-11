@@ -1,0 +1,113 @@
+/* Font Class */
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.raleway-font {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+/* Global Style */
+*{
+    background-color: #f5f8ff;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Shared Style */
+.color-main{
+    color: #252432;
+}
+.color-second{
+    color: #4E47FF;
+}
+.color-third{
+    color: #8d8e98
+}
+.btn-main{
+    background-color: #4E47FF;
+    height: 48px;
+    border-radius: 10px;
+    border: none;
+    color: #FFFFFF;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Head Section */
+/* Navigation Style */
+header .navigation{
+    display: flex;
+    align-items: center;
+    margin: 50px 150px;
+    justify-content: space-between;
+    border: 1px solid rebeccapurple;
+}
+header nav .logo{
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-size: 34px;
+    width: 99px;
+    height: 51px;
+}
+
+header nav .nav-btn{
+    width: 132px;
+}
+
+
+/* Banner Style */
+header .banner{
+    margin: 152px 150px 158px;
+    text-align: center;
+    border: 1px solid rebeccapurple;
+}
+header .banner .banner-content{
+    padding: 0px 267px;
+}
+header .banner .banner-content .banner-text{
+    font-weight: bold;
+    font-size: 65px;
+}
+header .banner .banner-content .banner-btn{
+    width: 174px;
+    margin-top: 37px;
+}
+
+
+/* Main Section */
+main{
+    margin: 0 141px;
+}
+main .first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rebeccapurple;
+}
+main .first .first-content{
+    width: 517px;
+    height: 230px;
+}
+main .first .first-content .first-title{
+    font-size: 42px;
+    margin-bottom: 23px;
+}
+main .first .first-content .first-desc{
+    font-size: 24px;
+    margin-bottom: 23px;
+}
+main .first .first-content .first-btn{
+    width: 229px;
+}
+main .first img{
+    width: 403px;
+    height: 328px;
+    border-radius: 60px;
+}
