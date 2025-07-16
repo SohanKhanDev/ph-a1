@@ -184,3 +184,37 @@ nav .btn-nav{
     color: #B3B3B3;
     background-color: #FFFFFF;
 }
+/* Section Four Style */
+.secfour{
+    margin: 0px 151px 92px;
+    /* border: 1px solid red; */
+    padding: 71px 150px;
+}
+
+.secfour h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.secfour p{
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #808080;
+}
+.secfour .btn-secfour{
+    display: block;
+    width: 195px;
+    height: 48px;
+    margin: 0 auto 20px;
+}
+.secfour-img{
+    display: flex;
+    justify-content: center;
+}
+.secfour img{
+    width: 840px;
+    height: 364px;
+    border-radius: 48px;
+}
