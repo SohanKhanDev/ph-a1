@@ -1,7 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: #F5F8FF;
+    /* background-color: #F5F8FF; */
+    box-sizing: border-box;
 }
 /* Font */
 .main-font {
@@ -33,6 +34,7 @@
 header{
     background-image: url('images/Hero-bg.png');
     /* border: 1px solid red; */
+    padding: 100px 0;
 }
 /* Navigation Style */
 nav{
