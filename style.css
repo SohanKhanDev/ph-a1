@@ -250,3 +250,32 @@ nav .btn-nav{
     width: 497px;
     height: 62px;
 }
+/* Footer Style */
+footer{
+    /* border: 1px solid red; */
+    text-align: center;
+    padding: 104px 454px;
+}
+footer h1{
+    font-size: 100px;
+    font-weight: 900;
+    color: #4E47FF;
+    margin-bottom: 8px;
+}
+footer p{
+    font-size: 16px;
+    color: #8987A1;
+    margin-bottom: 20px;
+}
+footer .footer-list{
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+}
+.footer-list li{
+    list-style: none;
+}
+.footer-list li a{
+    text-decoration: none;
+    color: #8987A1;
+}
