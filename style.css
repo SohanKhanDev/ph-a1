@@ -128,3 +128,59 @@ nav .btn-nav{
     color: #81828D;
     background-color: #E5E7FF;
 }
+/* Section Three Style */
+.secthree{
+    margin: 0px 151px 137px;
+    /* border: 1px solid red; */
+    padding: 24px 24px;
+}
+.secthree .secthree-title{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.cards{
+    display: flex;
+    gap: 20px;
+}
+.card{
+    /* border: 1px solid red; */
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    padding: 24px;
+}
+.card #card-img{
+    margin-bottom: 24px;
+    background-color: #FFFFFF;
+}
+.card .card-title{
+    font-size: 24px;
+    background-color: #FFFFFF;
+}
+.card .card-desc{
+    font-size: 16px;
+    margin-bottom: 24px;
+    background-color: #FFFFFF;
+}
+.card .card-footer{
+    display: flex;
+    gap: 12px;
+}
+.card-footer{
+    background-color: #FFFFFF;
+}
+.card-footer img{
+    border-radius: 50px;
+}
+.footer-right h4{
+    font-size: 16px;
+    color: #757575;
+    font-weight: bold;
+    background-color: #FFFFFF;
+}
+.footer-right p{
+    font-size: 16px;
+    color: #B3B3B3;
+    background-color: #FFFFFF;
+}
