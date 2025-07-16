@@ -218,3 +218,35 @@ nav .btn-nav{
     height: 364px;
     border-radius: 48px;
 }
+/* Section Five Style */
+.secfive{
+    /* border: 1px solid red; */
+    margin: 0px 150px 14px;
+    display: flex;
+    align-items: center;
+    gap: 115px;
+}
+.secfive h1{
+    font-size: 97px;
+    font-weight: bold;
+}
+.secfive .right label{
+    font-size: 18px;
+    font-weight: 500;
+    display: block;
+}
+.secfive .right .input-f{
+    width: 497px;
+    height: 70px;
+    border-radius: 10px;
+    border: none;
+    background-color: #FFFFFF;
+    margin: 5px auto 19px;
+}
+.secfive .right #message{
+    height: 135px;
+}
+.secfive .btn-secfive{
+    width: 497px;
+    height: 62px;
+}
